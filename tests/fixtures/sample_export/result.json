@@ -1,0 +1,135 @@
+{
+ "name": "DEMO Site A",
+ "type": "private_supergroup",
+ "id": 9990001,
+ "messages": [
+  {
+   "id": 1,
+   "type": "service",
+   "date": "2026-11-02T08:00:00",
+   "date_unixtime": "1793581200",
+   "actor": "Sokha",
+   "action": "create_group",
+   "title": "DEMO Site A"
+  },
+  {
+   "id": 2,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793581800",
+   "from": "Sokha (Site Eng)",
+   "from_id": "user1001",
+   "text": "អរុណសួស្តី"
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793582700",
+   "from": "Dara (Foreman)",
+   "from_id": "user1002",
+   "text": "ថ្ងៃនេះ កម្មករ ១២ នាក់ ជាងដែក ៦ នាក់"
+  },
+  {
+   "id": 4,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793585400",
+   "from": "Dara (Foreman)",
+   "from_id": "user1002",
+   "photo": "photos/photo_1.jpg",
+   "width": 10,
+   "height": 10,
+   "text": [
+    {
+     "type": "plain",
+     "text": "ចាក់ "
+    },
+    {
+     "type": "bold",
+     "text": "slab"
+    },
+    {
+     "type": "plain",
+     "text": " ជាន់ទី ៣ grid A-C"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793585460",
+   "from": "Dara (Foreman)",
+   "from_id": "user1002",
+   "photo": "photos/photo_2.jpg",
+   "width": 10,
+   "height": 10,
+   "text": ""
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793589000",
+   "from": "Dara (Foreman)",
+   "from_id": "user1002",
+   "file": "voice_messages/audio_1.ogg",
+   "media_type": "voice_message",
+   "mime_type": "audio/ogg",
+   "duration_seconds": 34,
+   "text": ""
+  },
+  {
+   "id": 7,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793596200",
+   "from": "Mr. Lee (Engineer Rep)",
+   "from_id": "user1003",
+   "text": "Please hold column C4 pour until revised rebar drawing is issued.",
+   "reply_to_message_id": 4
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793599800",
+   "from": "Vanna (QS)",
+   "from_id": "user1004",
+   "file": "files/delivery_2026-11-02.xlsx",
+   "file_name": "delivery_2026-11-02.xlsx",
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "Rebar delivery today"
+  },
+  {
+   "id": 9,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793607000",
+   "from": "Sokha (Site Eng)",
+   "from_id": "user1001",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "text": "ភ្លៀងខ្លាំង 14:00-15:30 ឈប់ការងារ"
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793637000",
+   "from": "Sokha (Site Eng)",
+   "from_id": "user1001",
+   "text": "night shift finished"
+  },
+  {
+   "id": 11,
+   "type": "message",
+   "date": "",
+   "date_unixtime": "1793640600",
+   "from": "Sokha (Site Eng)",
+   "from_id": "user1001",
+   "text": "generator refuelled 00:30",
+   "edited_unixtime": "1793640700"
+  }
+ ]
+}

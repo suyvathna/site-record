@@ -1,0 +1,14 @@
+# Copy to config/<project_code>.toml and fill in. Not committed if it holds real names.
+
+project_code = "DEMO-001"
+project_name = "Demo Shophouse Block A"
+timezone = "Asia/Phnom_Penh"
+
+# Telegram sender id (from the export's "from_id") -> role on site.
+# Roles decide who gets asked to confirm the evening draft and whose
+# messages count as an Engineer's instruction.
+[roles]
+"user1001" = "site_engineer"
+"user1002" = "foreman"
+"user1003" = "engineer_rep"   # the Engineer / consultant's representative
+"user1004" = "qs"

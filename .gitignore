@@ -1,0 +1,14 @@
+# Real project data never goes to git. Client chat exports are not ours to publish.
+data/*
+!data/.gitkeep
+exports/
+*.sqlite
+*.db
+
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "site-record"
+version = "0.1.0"
+description = "Turns a construction project's Telegram group into confirmed daily site records (CEIP-shaped)."
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.7",
+    "openpyxl>=3.1",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+llm = ["google-genai>=1.0"]
+bot = ["python-telegram-bot>=21"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+site-record = "site_record.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
