@@ -70,6 +70,10 @@ Stubs with written contracts: `extract.py`, `assemble.py`, `report.py`. Draft pr
 6. Demo: show the contact their own finished project rebuilt as daily records and a delay register.
 7. Only after the demo lands: Phase 2 live bot.
 
+## Money
+
+Before any step that can cost money (paid API calls, hosting, paid packages or services), say so up front with a rough cost estimate and wait for Vathna's go. The Gemini key currently lives in the Google Cloud project he also uses for his thesis. Whether calls are billed depends on whether that project has billing linked (AI Studio > API keys shows the tier per project). Assume billed until he confirms otherwise.
+
 ## Working style
 
 Vathna wants direct answers, code with the reasoning behind design choices, and explicit confidence labels (verified, inferred, guessed). Push back when an idea is weak. Record any non-obvious choice in `docs/decisions/` as a short numbered note.
