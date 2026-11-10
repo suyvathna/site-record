@@ -1,0 +1,13 @@
+name: site-record
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pydantic>=2.7
+  - openpyxl>=3.1
+  - python-dotenv>=1.0
+  - pytest>=8
+  - pip:
+      - google-genai>=1.0
+      - -e .

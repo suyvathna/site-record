@@ -6,13 +6,16 @@ Project context and rules: [CLAUDE.md](CLAUDE.md). Decisions: [docs/decisions/](
 
 ## Setup
 
+Uses an Anaconda environment defined in `environment.yml`. Run from the repo root:
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -e ".[dev,llm]"
-cp .env.example .env
+conda env create -f environment.yml
+conda activate site-record
+cp .env.example .env               # Windows: copy .env.example .env
 pytest
 ```
+
+After changing `environment.yml`: `conda env update -f environment.yml --prune`.
 
 ## Use (Phase 1, offline)
 

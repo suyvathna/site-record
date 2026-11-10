@@ -46,9 +46,13 @@ Phase 1 runs offline on a Telegram Desktop chat export from a past project. Phas
 7. Prompts live in `prompts/extract_vN.md`, never inline in code. Store the prompt version with each extraction.
 8. Real client chat exports never go through the Gemini free tier (Google uses free-tier content to improve its products) and never get committed. `data/` is gitignored.
 
+## Environment
+
+Always work inside the Anaconda environment `site-record` defined in `environment.yml` (`conda env create -f environment.yml`, then `conda activate site-record`). Don't create venvs or install packages globally. New dependencies go into `environment.yml` (and `pyproject.toml` if the package needs them at runtime), then `conda env update -f environment.yml --prune`.
+
 ## Stack
 
-Python 3.12+, Pydantic, SQLite plus a media folder, Gemini (`google-genai`, paid tier for real data, model in `.env`), openpyxl. Phase 2: python-telegram-bot on a small VPS.
+Python 3.12, Pydantic, SQLite plus a media folder, Gemini (`google-genai`, paid tier for real data, model in `.env`), openpyxl. Phase 2: python-telegram-bot on a small VPS.
 
 ## Status (10 Nov 2026)
 
